@@ -14,7 +14,7 @@ namespace BinaryHeap
 
             Console.WriteLine("\nInsertion Order\n");
             BinaryHeap<Int64> heap = new BinaryHeap<Int64>(true);
-            for (int i = 0; i < 1000000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 Int64 toAdd = rnd.Next(-10, 300);
                 heap.Insert(toAdd);
